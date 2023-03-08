@@ -1,0 +1,23 @@
+cria o projeto no Github (exemplo caso seja criado com o arquivo .gitignore)
+
+na pasta do projeto:
+
+git init
+
+git remote add origin + (link do projeto do Github, de preferência link de SSH)
+
+git pull origin main (vai puxar o arquivo .gitignore do Github para o projeto criado no pc, se não fizer isso vai dar conflito)
+
+//git status (para conferir)
+
+git add .
+
+git commit -m "    " (coloca o titulo do commit entre os "")
+
+git push -u origin main (só na primeira vez tem que escreve assim, depois é apenas (git push))
+
+
+
+começando pelo projeto no GitHub:
+
+git clone + (link do projeto do Github, vai clonar o projeto que está no Github para a pasta no pc)
